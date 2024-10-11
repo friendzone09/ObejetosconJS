@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    margin-top: 2rem;
+    height: 50vh;
+    width: 50vw;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
