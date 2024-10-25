@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Dibujo Halloween</title>
+</head>
+<body>
+    <h1>Juego de la bivora w que pedo</h1>
+    <a href="../index.html" id="btn_inicio">Volver al inicio</a>
+    <div class="container">
+
+        
+        <canvas id="lienzo" width="600" height="400"></canvas>
+
+        <div>
+            <label>Puntos: <label id="act_punt">0</label></label>
+        </div>
+       
+        <label>Máximo puntuaje: <label id="max_punt"></label></label>
+
+        <div class="modal" id="modal">
+            <div class="modal_game_over">
+                <h3>FIN DEL JUEGO</h3>
+                <label>Tu puntuaje fue de: <label id="punt_final">0</label></label>
+                <button id="btn_reiniciar">Volver a jugar</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

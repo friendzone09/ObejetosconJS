@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background: linear-gradient(to bottom right, #6600cc 0vw, #cc0099 100vw);
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    font-family: "Phudu", sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 0, 255)
+    ;
+    height: 7rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.secciones{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   height: 10rem;
+   padding: 2rem;
+}
+
+.card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #efefef;
+    padding: 2rem;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: linear-gradient(to bottom right, #6600cc 0%, #bd1284 100%);
+    background-size: 200%;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-position 0.5s ease;
+    box-shadow: 1px 1px 0px 1px rgba(255, 255, 255, 0.50) inset;
+}
+
+.btn:hover{
+    background-position: right;
+}

@@ -7,6 +7,8 @@ let arrayTareas = localStorage.getItem('tareas')
     ? JSON.parse(localStorage.getItem('tareas'))
     :[];
 
+
+
 function addWork(){
     const tarea = inputTareas.value;
     tareas.appendChild(creatTarea(tarea));
@@ -91,23 +93,28 @@ const body = document.querySelector('body');
 const changeFont = document.querySelector('#changetheme');
 
 
+let background= localStorage.getItem('backColor');
+let fontColor= localStorage.getItem('fontColor'); 
+let text = document.querySelector('.container h1');
+
+
 changeFont.addEventListener('click', ()=>{
     
     const estilos = window.getComputedStyle(body);
     let backgroundColor = estilos.backgroundColor;
 
+    
+
     if(backgroundColor == 'rgb(237, 237, 237)'){
 
         body.style.backgroundColor = '#202020';
-        let text = document.querySelector('.container h1');
         text.style.color = 'white';
 
     }else if(backgroundColor == 'rgb(32, 32, 32)'){
 
         body.style.backgroundColor = '#EDEDED';
-        text = document.querySelector('.container h1');
-        text.style.color = 'black'; 
+        text.style.color = 'black';
         
     }
 
-})
+});

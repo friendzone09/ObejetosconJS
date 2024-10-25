@@ -13,21 +13,21 @@ function generateColor(){
     return `rgb(${ redColor },${ greenColor },${ blueColor })`
 }
 
-inputRed.addEventListener('change', (e)=>{
+inputRed.addEventListener('input', (e)=>{
     redColor = e.target.value;
 
     body.style.backgroundColor = generateColor();
     span.innerText = generateColor()
 })
 
-inputBlue.addEventListener('change', (e)=>{
+inputBlue.addEventListener('input', (e)=>{
     blueColor = e.target.value;
 
     body.style.backgroundColor = generateColor();
     span.innerText = generateColor()
 })
 
-inputGreen.addEventListener('change', (e)=>{
+inputGreen.addEventListener('input', (e)=>{
     greenColor = e.target.value;
 
     body.style.backgroundColor = generateColor();

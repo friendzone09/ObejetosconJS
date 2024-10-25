@@ -75,3 +75,19 @@ body{
     top: 3rem;
     left: 3rem;
 }
+
+#btn_inicio{
+    background: linear-gradient(to bottom right, #6600cc 0%, #cc3399 100%);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 5rem;
+    left: 2.8rem;
+}
+
+#btn_inicio:hover{
+   background: linear-gradient(to bottom right, #480090 0%, #81185e 100%);
+   color: #fefefe;
+}

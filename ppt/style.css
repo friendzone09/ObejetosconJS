@@ -21,3 +21,18 @@ height: 200px;
 border-radius: 50%;
 }
 
+#btn_inicio{
+    background: linear-gradient(to bottom right, #6600cc 0%, #cc3399 100%);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+}
+
+#btn_inicio:hover{
+   background: linear-gradient(to bottom right, #480090 0%, #81185e 100%);
+   color: #fefefe;
+}
